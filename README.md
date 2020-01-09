@@ -40,7 +40,7 @@ line represent one repository.
 ORGANIZATION;REPO_NAME;COMMIT;SRC_DIR;URL_PATH
 ```
 Where
-* `ORGANIZATION` is github organization URL
+* `ORGANIZATION` is github organization name
 * `REPO_NAME` is the repository name inside organization
 * `COMMIT` is specific commit in repository
 * `SRC_DIR` is path in repository to source MD files
