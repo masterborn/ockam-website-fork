@@ -48,6 +48,13 @@ const plugins = [
     },
   },
   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `images`,
+      path: `${__dirname}/src/assets`,
+    },
+  },
+  {
     resolve: `gatsby-plugin-gtag`,
     options: {
       // your google analytics tracking id
@@ -74,6 +81,10 @@ const plugins = [
         {
           family: `IBM Plex Sans`,
           variants: ['300', '400', '400i', '500', '600', '700'],
+        },
+        {
+          family: `IBM Plex Mono`,
+          variants: ['300', '400', '500'],
         },
       ],
     },

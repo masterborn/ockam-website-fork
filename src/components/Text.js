@@ -10,9 +10,10 @@ Text.defaultProps = {
   marginTop: 0,
   fontFamily: 'body',
   lineHeight: 'body',
-  marginBottom: 3,
+  mb: 3,
   fontWeight: 'body',
   fontSize: 'body',
+  color: 'text',
 };
 Text.displayName = 'Text';
 
