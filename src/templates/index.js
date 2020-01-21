@@ -8,7 +8,6 @@ import BlogTemplate from './BlogTemplate';
 const Index = ({ children, pageContext, location, ...rest }) => {
   const isDocPage = pageContext.pageType === 'doc';
   const isBlogPage = pageContext.pageType === 'blog';
-  console.log('rest',rest);
   if (isBlogPage) {
     return <BlogTemplate location={location} {...rest}>{children}</BlogTemplate>;
   }

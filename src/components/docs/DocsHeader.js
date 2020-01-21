@@ -19,9 +19,9 @@ const Container = styled.nav`
   position: relative;
   height: 8rem;
 
-  a.active {
-   color: ${props => props.theme.colors.primary};
-  }
+  color: ${props => props.theme.colors.menuText};
+  
+
   
 `;
 
@@ -38,8 +38,9 @@ const HeaderMenu = styled(Menu)`
     padding-left: 0;
   }
   a.active {
-      color: ${props => props.theme.colors.primary};
-  }
+   color: ${props => props.theme.colors.menuTextActive};
+   font-weight: ${props => props.theme.fontWeights[2]};
+  };
 
 `;
 

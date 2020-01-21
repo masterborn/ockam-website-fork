@@ -24,7 +24,6 @@ const Content = styled.div`
   `}
 `;
 export default function DocsTemplate(props) {
-
   const {
     data: { mdx },
     location,
