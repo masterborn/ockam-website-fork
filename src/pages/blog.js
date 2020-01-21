@@ -15,7 +15,6 @@ const Wrapper = styled('div')`
 
 const BlogFeatureArticleContent = styled(BlogContent)`
   background-color: ${props => props.theme.colors.accentBackground};
-  padding-bottom: 6.5rem;
   padding-top:0;
 `;
 
